@@ -16,6 +16,6 @@ def get_imports_from_notebook(notebook_path):
     return list(imports)
 
 # Use the function
-notebook_path = '1-poc-watch-nn-wheights\main.ipynb'  # replace with your notebook path
+notebook_path = 'main3.ipynb'  # replace with your notebook path
 imports = get_imports_from_notebook(notebook_path)
 print(imports)
